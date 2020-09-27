@@ -8,11 +8,11 @@ namespace ZPL
     {
         static void Main(string[] args)
         {
-            if(args[0].Length < 3) 
+            if(args.Length == 0 || args[0].Length < 3) 
             {
                 Console.WriteLine("Usage:");
                 Console.WriteLine("zplprin file.bmp <printer ip addr> <printer port>");
-                Console.WriteLine("(the parameter's order can't be altered)");
+                Console.WriteLine("(the order of the parameters cannot be altered)");
             }
             else
             {
