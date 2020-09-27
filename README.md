@@ -1,5 +1,5 @@
 # zplprint
-Example about how to generate ZPL code from an image and sending it to a Zebra Printer.
+Example about how to generate ZPL code from an image and send it to a Zebra Printer.
 
 # Usage:
 //Load the image, convert it to Bitmap (in this case I named it "bmp") and pass it to the GetImageZPLEncoded method.
